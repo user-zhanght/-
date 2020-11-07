@@ -7,7 +7,7 @@
         echo "<script>alert('数据不能为空！');</script>";
         echo "<script>window.location.href='memberadd.html'</script>";
     }else if($sex !== "男" && $sex !== "女"){
-        echo "<script>alert('请输入男或女！此为二选一项');</script>";
+        echo "<script>alert('请输入男或女！');</script>";
         echo "<script>window.location.href='memberadd.html'</script>";
     }else if(is_int($phonenum) || is_int($sfzh)){
         echo "<script>alert('请输入正确的电话号码或身份证号！');</script>";
